@@ -4,6 +4,7 @@ const reverseString = function(string) {
     a+=string[i];
   }
   return a;
+  //better solution:  return string.split("").revers().join("");
 };
 
 // Do not edit below this line
