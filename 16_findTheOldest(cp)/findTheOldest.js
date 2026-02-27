@@ -1,8 +1,8 @@
 const findTheOldest = function(people) {
   return people.reduce((theOldest,peo)=>{
-    let yearsOld1;
-    let yearsOld2;
-    let date = new Date();
+    const yearsOld1;
+    const yearsOld2;
+    const date = new Date();
     if(!theOldest.hasOwnProperty("yearOfDeath")){
       yearsOld1 = date.getFullYear()-theOldest.yearOfBirth
     }else{
